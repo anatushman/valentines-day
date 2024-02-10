@@ -1,0 +1,27 @@
+<!-- question.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Your Valentine Video or GIF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Upload Your Valentine Video or GIF</h1>
+        <input type="file" accept="video/*,image/*" id="fileInput">
+    </div>
+
+    <script>
+        document.getElementById("fileInput").addEventListener("change", function() {
+            // Handle file upload here, e.g., using FormData and AJAX
+            // You can also redirect to another page after uploading
+            alert("Upload successful!");
+        });
+    </script>
+</body>
+
+</html>
